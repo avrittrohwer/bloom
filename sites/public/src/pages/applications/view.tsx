@@ -10,6 +10,7 @@ import { pushGtmEvent, PageView, AuthContext } from "@bloom-housing/shared-helpe
 import { UserStatus } from "../../lib/constants"
 import { SubmittedApplicationView } from "../../components/applications/SubmittedApplicationView"
 
+// change
 const ApplicationView = () => {
   const { application, listing } = useContext(AppSubmissionContext)
   const { profile } = useContext(AuthContext)
